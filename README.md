@@ -84,3 +84,6 @@ Depois disso, o programa continuou e o saldo final foi R$ 6,00. A saída complet
 - Aula 6, escalonamento FCFS e fila FIFO.
 - Aula 7, condição de corrida, seção crítica e mutex POSIX.
 - Aula 8, semáforos POSIX.
+
+Link da apresentação:
+https://drive.google.com/drive/folders/1OfW0RC-zrqGxzFxdt2KkmKLyz1knQDSF?hl=pt-br
