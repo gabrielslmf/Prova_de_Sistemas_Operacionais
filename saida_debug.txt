@@ -1,0 +1,27 @@
+SIMULACAO PIX: 6 envios, pool de 2 threads, protecao 1
+Cada usuario envia R$ 1,00 para a mesma conta.
+Pressione Ctrl+C para ver o estado da fila.
+Thread 2 iniciou pedido 1
+Thread 1 iniciou pedido 2
+
+--- ESTADO DA FILA ---
+Concluidos: 0 de 6
+Thread 1: atendendo pedido 2
+Thread 2: atendendo pedido 1
+Aguardando (4): 3 4 5 6
+----------------------
+
+Thread 2 terminou pedido 1
+Thread 2 iniciou pedido 3
+Thread 1 terminou pedido 2
+Thread 1 iniciou pedido 4
+Thread 2 terminou pedido 3
+Thread 2 iniciou pedido 5
+Thread 1 terminou pedido 4
+Thread 1 iniciou pedido 6
+Thread 2 terminou pedido 5
+Thread 1 terminou pedido 6
+
+Saldo esperado no destino: R$ 6,00
+Saldo encontrado no destino: R$ 6,00
+Valor perdido na simulacao: R$ 0,00
